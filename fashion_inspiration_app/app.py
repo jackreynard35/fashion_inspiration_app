@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = '*************' 
+API_KEY = KEY 
 
 def fetch_images(query):
     url = f'https://pixabay.com/api/?key={API_KEY}&q={query}&image_type=photo&pretty=true'
